@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <span>Fixed on a Route Two</span>
+  <span>
+    <a href="#" [routerLink]="'/foo/one'" routerLinkActive="'active'">
+      <button mat-raised-button color="primary">One</button>
+    </a>
+    <a href="#" [routerLink]="'/foo/two'" routerLinkActive="'active'">
+      <button mat-raised-button color="primary">Two</button>
+    </a>
+    <a href="#" [routerLink]="'/foo/three'" routerLinkActive="'active'">
+      <button mat-raised-button color="primary">Three</button>
+    </a>
+  </span>
+
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
